@@ -2,6 +2,10 @@
 
 This project is a Library Management system built using Swagger, Express, Prisma, PostgreSQL, and Docker.
 
+# Demo Video Link
+
+https://www.loom.com/share/98e6b51ceaac49ee94f80fe3bf754fc0?sid=ab5cf907-bbb9-4beb-9d56-5968c671d65d
+
 ## Setup Instructions
 
 Follow these steps to set up the project:
