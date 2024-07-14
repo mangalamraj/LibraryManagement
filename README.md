@@ -49,6 +49,46 @@ Follow these steps to set up the project:
 - **PostgreSQL**: Relational database
 - **Docker**: Containerization platform
 
+# API Documentation
+
+To access the API documentation, open your browser and navigate to:
+
+    ```bash
+   http://localhost:3000/api-docs/
+   ```
+
+The API documentation includes the following endpoints for managing authors, books, borrowing records, and users:
+
+## Author Endpoints
+
+- **Add Author:** `POST /authors`
+- **Show All Authors:** `GET /authors`
+- **Show Author by ID:** `GET /authors/{id}`
+- **Update Author:** `PUT /authors/{id}`
+- **Delete Author:** `DELETE /authors/{id}`
+
+## Book Endpoints
+
+- **Add Book:** `POST /books`
+- **Show All Books:** `GET /books`
+- **Show Book by ID:** `GET /books/{id}`
+- **Update Book:** `PUT /books/{id}`
+- **Delete Book:** `DELETE /books/{id}`
+
+## User Endpoints
+
+- **Add User:** `POST /users`
+- **Show All Users:** `GET /users`
+- **Show User by ID:** `GET /users/{id}`
+- **Update User:** `PUT /users/{id}`
+- **Delete User:** `DELETE /users/{id}`
+
+## Borrowing Endpoints
+
+- **Borrow a Book:** `POST /borrowings`
+- **Return a Book:** `PUT /borrowings/{id}/return`
+- **List of Borrowed Books:** `GET /borrowings`
+
 ## Repository
 
 [Library Management GitHub Repository](https://github.com/mangalamraj/LibraryManagement.git)
