@@ -53,7 +53,7 @@ Follow these steps to set up the project:
 
 To access the API documentation, open your browser and navigate to:
 
-    ```bash
+   ```bash
    http://localhost:3000/api-docs/
    ```
 
@@ -85,9 +85,9 @@ The API documentation includes the following endpoints for managing authors, boo
 
 ## Borrowing Endpoints
 
-- **Borrow a Book:** `POST /borrowings`
-- **Return a Book:** `PUT /borrowings/{id}/return`
-- **List of Borrowed Books:** `GET /borrowings`
+- **Borrow a Book:** `POST /borrow`
+- **Return a Book:** `PUT /borrow/return`
+- **List of Borrowed Books:** `GET /borrow/borrowed`
 
 ## Repository
 
