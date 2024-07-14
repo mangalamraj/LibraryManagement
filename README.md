@@ -40,6 +40,11 @@ Follow these steps to set up the project:
    ```bash
    docker-compose up
    ```
+5. **Run npm start**
+
+   ```bash
+   npm start
+   ```
 
 ## Technologies Used
 
