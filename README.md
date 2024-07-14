@@ -31,6 +31,9 @@ Follow these steps to set up the project:
    ```env
    DATABASE_URL=your_database_url
    ```
+4. **Change the url in docker-compose and in index.js too**
+
+   
 
 5. **Run Docker Compose**
 
